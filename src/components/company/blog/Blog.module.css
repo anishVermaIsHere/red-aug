@@ -1,0 +1,29 @@
+
+.card:hover {
+    background-image: linear-gradient(to left bottom, rgb(62, 10, 75), rgb(95, 54, 95), rgb(80, 16, 16));
+}
+
+.readMore {
+    /* absolute bottom-8 z-0 text-white */
+    position: absolute;
+    bottom: 32px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.cardFooter {
+    transition:all 0.4s ease;
+    bottom:0;
+    background-color: inherit;
+    z-index: 1;
+}
+
+.card:hover  .cardFooter {
+    position: absolute;
+    bottom: 100px;
+}
+
+.card:hover .readMore {
+    opacity: 1;
+}
+

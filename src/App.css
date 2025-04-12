@@ -1,0 +1,48 @@
+
+
+
+:root {
+    --primary: #0e0a12;
+    --secondary: #5a348e;
+    --purpleDark: #898492;
+    --bg-primary: #140f16;
+    --bg-secondary: #1f1e20;
+    /* --bg-dark:  rgb(27, 26, 25); */
+}
+
+
+body {
+    width: 100%;
+    background-image: linear-gradient(to left top, var(--bg-primary), var(--bg-secondary));
+    font-family: "Montserrat", "Poppins", "sans-serif";
+}
+
+.bg-primary {
+    @apply bg-[var(--primary)];
+}
+
+.bg-secondary {
+    @apply bg-[var(--secondary)];
+}
+
+.bg-image {
+    background-image: url('https://as2.ftcdn.net/jpg/05/76/80/61/1000_F_576806114_KPckDGeAGQYOILo5ERSnhQOqqqNS7Cxr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-radial {
+    background:
+  radial-gradient(ellipse at top, var(--primary), transparent),
+  radial-gradient(ellipse at left, var(--primary), transparent),
+  radial-gradient(ellipse at right, var(--purpleDark), transparent),
+  radial-gradient(ellipse at bottom, var(--secondary), transparent),
+  radial-gradient(ellipse at top, var(--secondary), transparent);
+}
+
+.bg-dark {
+    background-image:linear-gradient(to left bottom, rgb(36, 35, 33), rgb(33, 33, 33),rgb(11, 10, 7));
+}
+
+.bg-footer {
+    background-image:linear-gradient(rgb(36, 35, 33), rgb(33, 33, 33),rgb(11, 10, 7));
+}
