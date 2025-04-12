@@ -1,4 +1,4 @@
-# Task 1 - Red Augment Landing Page
+# Task 1 - Red Augment Landing Page in React
 
 
 **To run this app follow these steps:**
