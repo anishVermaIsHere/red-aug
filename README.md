@@ -31,4 +31,6 @@ npm run dev
 5. Now your app will start successfully.
 
 # Screen video
+https://github.com/user-attachments/assets/f8632e26-be6d-4b86-b77d-70a025f847e1
+
 
